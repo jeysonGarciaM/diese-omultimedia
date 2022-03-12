@@ -1,0 +1,770 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    background-color: #24282b;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+    border-bottom: 4px solid #1f79ff;
+    
+}
+span{
+    color: #1f79ff;
+}
+h1{
+    color: white;
+    
+    
+}
+/*color estatico inicio*/
+nav ul li a1{
+    text-decoration: none;   
+    color: #1f79ff; 
+}
+nav ul li a1:hover{
+    color: white;
+}
+/*-----------------------*/
+nav ul li a{
+    text-decoration: none;   
+    color: white; 
+}
+nav ul li a:hover{
+    color: #1f79ff;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 13px;
+}
+.imagen01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 1349px;
+}
+.textoEnImagen {
+    font-size: 60px;
+    margin-top: -290px;
+    display: flex;
+    justify-content: center;
+}
+.parrafoEnImagen {
+    font-size: 20px;
+    color: white;
+    padding: 0px 100px 0px;
+    margin-top: -30px;
+}
+
+
+.campoSuscribete{
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    height: 90px;
+    margin-top: 178px;
+}
+.TextoSuscribete{
+    color: white;
+}
+input#email{
+    width: 250px;
+    padding: 8px;
+}
+
+button{
+    background-color: #e8491d;
+    border: none;
+    color: white;
+    padding: 11px;
+}
+
+button:hover{
+    background-color: #1f79ff;
+}
+.campoProgramas{
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+    text-align: center;
+}
+
+.cuadro{
+    width: 320px;
+    padding: 30px;
+}
+.imagenProgramas{
+    width: 100px;
+}
+footer{
+    background-color: #1f79ff;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+/*pagina nosotros*/
+
+.campoSuscribete1{
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    height: 90px;
+}
+.TextoSuscribete1{
+    color: white;
+}
+
+.Texto{
+    color: black;
+    
+}
+
+.primerCampoTexto{
+    margin-top: -130px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.primerCampoTexto1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.segundoCampoTexto{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+     background-color: #35424A;
+    width: 360px;
+    height: 220px;
+    padding: 15px;
+    text-align: justify;
+}
+.cuadroTextoPrimero{
+    background-color: #35424A;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.parrafoDerecha{
+color: white;
+margin-top: -30px;
+
+}
+.CampoTextosNosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height:689px;
+}
+.primerParrafo{
+    width: 470px;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: -270px;
+}
+.segundoParrafo{
+    background-color: #35424A;
+    color: white;
+    width: 450px;
+    font-size: 13px;
+    padding: 15px;
+    text-align: justify;
+    margin-top: -290px;
+}
+.imagen05{
+    width: 479px;
+    margin-top: -290px;
+}
+/*color estatico nosotros*/
+nav ul li a2{
+    text-decoration: none;   
+    color: #1f79ff; 
+}
+nav ul li a2:hover{
+    color: white;
+}
+/*-----------------------*/
+/*color estatico de servicios*/
+nav ul li a3{
+    text-decoration: none;   
+    color: #1f79ff; 
+}
+nav ul li a3:hover{
+    color: white;
+}
+/*-----------------------*/
+.campoSuscribete2{
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+    height: 90px;
+}
+.TextoSuscribete2{
+    color: white;
+}
+
+input#email{
+    width: 200px;
+    padding: 8px;
+}
+
+button{
+    background-color: #E8491D;
+    border: none;
+    color: white;
+    padding: 11px;
+}
+
+button:hover{
+    background-color: #14A1D9;
+}
+.cuadroDeTextos{
+    background-color: #E6E6E6;
+    border: 1px solid #cccccc;
+    width: 500px;
+    padding: 13px;
+    height: 173px;
+    text-align: justify;
+
+}
+
+.CampoTextosNosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.imagenMapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    margin-top: 20px;
+}
+
+input#nombre{
+    width: 550px;
+    height: 40px;
+    }
+    input#correo{
+        width: 550px;
+        height: 40px;
+    }
+    input#telefono{
+        width: 550px;
+        height: 40px;
+    }
+    input#celular{
+        width: 550px;
+        height: 40px;
+    }
+    textarea{
+        width: 550px;
+        height: 130px;
+    }
+    
+    .botonContacto{
+        width: 555px;
+        height: 40px;
+        background-color: #E8491D;
+        color: white;
+        border: none;
+    }
+    
+    .botonContacto:hover{
+    
+        background-color: #14A1D9;
+         
+    } 
+    
+    section{
+        background-color: #F4F4F4;
+    }
+
+    .campoSuscribete5{
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 200px 0px 200px;
+        height: 90px;
+        margin-top: 0px;
+    }
+    .TextoSuscribete5{
+        color: white;
+    }
+    .Texto1{
+        color: black;
+        margin-top: -10px;
+    }
+    .cuadroTextoPrimero5{
+        background-color: #35424A;
+        width: 300px;
+        height: 230px;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .parrafoDerecha5{
+    color: white;
+    margin-top: 30px;
+    
+    }
+    nav ul li a4{
+        text-decoration: none;   
+        color: #1f79ff; 
+    }
+    nav ul li a4:hover{
+        color: white;
+    }
+
+    nav ul li a8{
+        text-decoration: none;   
+        color: #1f79ff; 
+    }
+    nav ul li a8:hover{
+        color: white;
+    }
+    .campoSuscribete8{
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 200px 0px 200px;
+        height: 90px;
+    }
+    .TextoSuscribete8{
+        color: white;
+    }
+    .Texto4{
+        color: black;
+        margin-top: 20px;
+    }
+    .CampoTextos4{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        height:700px;
+        margin-top: 300;
+    }
+
+    /*RESPONSIVE*/
+/*inicio*/
+@media (max-width:800px){
+    .imagen01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 800px;
+    }
+    .textoEnImagen{
+        font-size: 40px;
+        margin-top: -150px;
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        display: flex;
+        background-color: #24282b;
+        justify-content: space-between;
+        padding: 0px 30px 0px 30px;
+        border-bottom: 4px solid #1f79ff;
+    }
+    header {
+    display: flex;
+    background-color: #24282b;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    border-bottom: 4px solid #1f79ff;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        padding: 13px;
+    }
+    .parrafoEnImagen {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        padding: 0px 100px 0px;
+        margin-top: -30px;
+    }
+    .campoSuscribete {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+        height: 90px;
+        margin-top: 68px;
+    }
+    .campoProgramas {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        text-align: center;
+    }
+/*nosotros*/
+    .campoSuscribete1 {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+        height: 90px;
+    }
+    .CampoTextosNosotros {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        height: 600px;
+    }
+    .segundoCampoTexto {
+        display: flex;
+        flex-direction: column;
+        background-color: #35424A;
+        width: 200px;
+        height: 220px;
+        padding: 10px;
+        text-align: justify;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        margin-top: 25px;
+    }
+        
+    .parrafoDerecha {
+        font-size: 12px;
+        color: white;
+        margin-top: -30px;
+    }
+/*servicios*/
+    .campoSuscribete8 {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+        height: 90px;
+    }
+    .CampoTextos4 {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        height: 700px;
+        
+    }
+    .cuadroDeTextos {
+        background-color: #E6E6E6;
+        border: 1px solid #cccccc;
+        width: 440px;
+        padding: 13px;
+        height: 173px;
+        text-align: justify;
+    }
+/*CONTACTO*/
+    .campoSuscribete5 {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px 0px 30px;
+        height: 90px;
+        margin-top: 0px;
+    }
+    .cuadroTextoPrimero5 {
+        display: flex;
+        flex-direction: column;
+        background-color: #35424A;
+        width: 200px;
+        height: 220px;
+        padding: 10px;
+        text-align: justify;
+    }
+    .parrafoDerecha5 {
+        font-size: 13px;
+        color: white;
+        margin-top: 1px;
+    }
+    .imagenMapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 220px;
+        margin-top: 20px;
+    }
+    input#nombre {
+        width: 448px;
+        height: 30px;
+    }
+    input#correo {
+        width: 450px;
+        height: 30px;
+    }
+    input#telefono {
+        width: 450px;
+        height: 30px;
+    }
+    input#celular {
+        width: 450px;
+        height: 30px;
+    }
+    textarea {
+        width: 450px;
+        height: 90px;
+    }
+    .botonContacto {
+        width: 455px;
+        height: 30px;
+        background-color: #E8491D;
+        color: white;
+        border: none;
+    }
+}
+@media (max-width: 576px){
+    .imagen01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 576px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 370px;
+        padding: 30px;
+    }
+    header {
+        display: flex;
+        background-color: #24282b;
+        justify-content: space-between;
+        padding: 0px 10px 0px 10px;
+        border-bottom: 4px solid #1f79ff;
+    }
+    h1 {
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+    }
+    .textoEnImagen {
+        font-size: 28px;
+        margin-top: -110px;
+        display: flex;
+        justify-content: center;
+    }
+    .parrafoEnImagen {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        padding: 0px 10px 0px;
+        margin-top: -20px;
+    }
+/*Nosotros*/
+    button {
+        background-color: #E8491D;
+        border: none;
+        color: white;
+        padding: 8px;
+    }
+    .TextoSuscribete {
+        color: white;
+        font-size: 18px;
+    }
+    input#email {
+        width: 150px;
+        padding: 6px;
+    }
+    .campoProgramas {
+        display: flex;
+        justify-content: center;
+        width: 576px;
+        text-align: center;
+    }
+    .cuadro {
+        width: 300px;
+        padding: 10px;
+    }
+    .campoSuscribete {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+        height: 90px;
+        margin-top: 46px;
+    }
+    .campoSuscribete1 {
+        display: flex;
+        background-color: #24282B;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+        height: 90px;
+    }
+    .CampoTextosNosotros {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        height: 680px;
+    }
+    .TextoSuscribete1 {
+        color: white;
+        font-size: 20px;
+    }
+    .segundoCampoTexto {
+        display: flex;
+        flex-direction: column;
+        background-color: #35424A;
+        width: 150px;
+        height: 240px;
+        padding: 10px;
+        text-align: justify;
+    }
+    .parrafoDerecha {
+        font-size: 12px;
+        color: white;
+        margin-top: -20px;
+    }
+    .primerParrafo {
+        width: 353px;
+        font-size: 15px;
+        text-align: justify;
+        margin-top: -308px;
+    }
+    .segundoParrafo {
+        background-color: #35424A;
+        color: white;
+        width: 323px;
+        font-size: 15px;
+        padding: 15px;
+        text-align: justify;
+        margin-top: -290px;
+    }
+    .imagen05 {
+        width: 354px;
+        margin-top: -290px;
+    }
+/*servicio*/
+.CampoTextos4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 737px;
+}
+.campoSuscribete8 {
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    height: 90px;
+}
+.TextoSuscribete8 {
+    font-size: 20px;
+    color: white;
+}
+
+.Texto {
+    color: black;
+    font-size: 20px;
+}
+.cuadroDeTextos {
+    background-color: #E6E6E6;
+    border: 1px solid #cccccc;
+    width: 354px;
+    padding: 9px;
+    height: 195px;
+    text-align: justify;
+}
+/*contacto*/
+.cuadroTextoPrimero5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #35424A;
+    width: 150px;
+    height: 240px;
+    padding: 10px;
+    text-align: justify;
+}
+.campoSuscribete5 {
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    height: 90px;
+    margin-top: 0px;
+}
+.TextoSuscribete5 {
+    color: white;
+    font-size: 20px;
+}
+.imagenMapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 170px;
+    margin-top: 20px;
+}
+input#nombre {
+    width: 354px;
+    height: 25px;
+}
+input#correo {
+    width: 354px;
+    height: 25px;
+}
+input#telefono {
+    width: 354px;
+    height: 25px;
+}
+input#celular {
+    width: 354px;
+    height: 25px;
+}
+textarea {
+    width: 354px;
+    height: 70px;
+}
+
+.botonContacto {
+    width: 361px;
+    height: 35px;
+    background-color: #E8491D;
+    color: white;
+}
+.parrafoDerecha5 {
+    font-size: 11px;
+    color: white;
+    margin-top: -21px;
+}
+}
